@@ -65,6 +65,32 @@ Inside the script, you can tweak these constants:
 
 </details>
 
+<details>
+<summary><h2>❓ FAQ for SEO</h2></summary>
+
+### 🔹 How to know how much time I save when watching videos at 2x speed?
+This userscript automatically calculates your **effective watch time** and shows how much time you actually save in **hh:mm:ss format** when changing playback speed.
+
+### 🔹 Can I use this with YouTube, Vimeo, or online courses?
+Yes. The script works on **all HTML5 video players**, including YouTube, Vimeo, Udemy, Coursera, and most e-learning platforms.
+
+### 🔹 What is the best Tampermonkey script for video time tracking?
+**VideoSpeed Info Panel** is a lightweight **Tampermonkey / Greasemonkey userscript** that overlays a dynamic panel with watch time, saved time, and percentage saved.
+
+### 🔹 How does it calculate saved time?
+It takes the **original video duration** and divides it by your current **playback speed**. The difference is shown as **time saved** (both in hh:mm:ss and as a percentage).
+
+### 🔹 Is this useful for productivity?
+Absolutely. If you watch lectures, tutorials, or long YouTube videos, this tool helps you see exactly **how much time you save** — great for **time management** and **learning efficiency**.
+
+<details>
+<summary><h2>🔑 SEO Keywords</h2></summary>
+
+how to speed up YouTube videos, how to save time watching videos, Tampermonkey userscript, Greasemonkey script, HTML5 video overlay, video speed controller alternative, video time tracker, watch time calculator, saved time percentage, time saver extension, track effective watch time, YouTube speed control, online course video speed, productivity tool for videos, dynamic info panel, calculate watch time, calculate saved time, faster video playback, watch lectures faster, manage video time, track video duration, video playback speed script, YouTube 2x speed time saved, best userscript for video speed, video overlay watch time, time management tool, learning efficiency script
+
+</details>
+</details>
+
 ### 🤝 Contributing</summary>
 
 Contributions, bug reports, and feature ideas are welcome!  
