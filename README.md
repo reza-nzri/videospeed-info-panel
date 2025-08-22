@@ -69,40 +69,38 @@ Inside the script, you can tweak these constants:
 <summary><h2>❓ FAQ for SEO</h2></summary>
 
 <details>
-<summary><h3>🔹 How to know how much time I save when watching videos at 2x speed?</h3></summary>
-<b>VideoSpeed Info Panel</b> automatically calculates your <b>effective watch time</b> and shows how much time you actually save in <b>hh:mm:ss format</b> when changing playback speed.
+<summary><h3>🔹 How to know how much time I save at 2× speed? (VideoSpeed Info Panel)</h3></summary>
+<b>VideoSpeed Info Panel</b> calculates the <b>effective watch time</b> and the <b>exact time saved</b> when playing any HTML5 video at 1.25×/1.5×/2×. The panel shows results in <b>hh:mm:ss</b> and as a percentage, updating live as playback speed changes.
 </details>
 
 <details>
-<summary><h3>🔹 Can I use this with YouTube, Vimeo, or online courses?</h3></summary>
-Yes. The script works on <b>all HTML5 video players</b>, including YouTube, Vimeo, Udemy, Coursera, and most e-learning platforms.
+<summary><h3>🔹 Can VideoSpeed Info Panel work with YouTube, Vimeo, Udemy, Coursera?</h3></summary>
+<b>VideoSpeed Info Panel</b> supports <b>all HTML5 video players</b> (YouTube, Vimeo, Udemy, Coursera, and most e-learning sites). The script overlays a small “!” icon; hovering shows watch time, remaining time (speed-adjusted), and time saved.
 </details>
 
 <details>
-<summary><h3>🔹 What is the best Tampermonkey script for video time tracking?</h3></summary>
-<b>VideoSpeed Info Panel</b> is a lightweight <b>Tampermonkey / Greasemonkey userscript</b> that overlays a dynamic panel with watch time, saved time, and percentage saved.
+<summary><h3>🔹 What is the best Tampermonkey userscript for video time tracking?</h3></summary>
+The <b>VideoSpeed Info Panel</b> Tampermonkey/Greasemonkey userscript adds a minimal overlay to HTML5 videos showing <b>watch time</b>, <b>saved time</b>, and <b>saved %</b> based on current playback speed—ideal for productivity and study sessions.
 </details>
 
 <details>
-<summary><h3>🔹 How does it calculate saved time?</h3></summary>
-It takes the <b>original video duration</b> and divides it by your current <b>playback speed</b>. The difference is shown as <b>time saved</b> (both in hh:mm:ss and as a percentage).
+<summary><h3>🔹 How does VideoSpeed Info Panel calculate saved time?</h3></summary>
+<b>VideoSpeed Info Panel</b> uses: <b>WatchTime = OriginalDuration / Speed</b>. <b>SavedTime = OriginalDuration − WatchTime</b>. <b>Saved% = 1 − 1/Speed</b>. All values appear in <b>hh:mm:ss</b> and update instantly when speed changes.
 </details>
 
 <details>
-<summary><h3>🔹 Is this useful for productivity?</h3></summary>
-Absolutely. If you watch lectures, tutorials, or long YouTube videos, this tool helps you see exactly <b>how much time you save</b> — great for <b>time management</b> and <b>learning efficiency</b>.
+<summary><h3>🔹 Is VideoSpeed Info Panel useful for productivity?</h3></summary>
+<b>VideoSpeed Info Panel</b> shows exactly how much viewing time is required and how much is saved, helping with <b>time management</b> and <b>learning efficiency</b> when watching lectures, tutorials, and long YouTube videos at higher speeds.
 </details>
 
 <details>
-<summary><h3>🔹 What about platforms like Instagram, Twitter, or LinkedIn that don’t show video duration?</h3></summary>
-On some social platforms (Instagram, Twitter/X, LinkedIn, etc.) videos often <b>don’t display the remaining time</b>.<br>
-With <a href="https://github.com/igrigorik/videospeed">Video Speed Controller</a> you can change playback speed easily, and with <b>VideoSpeed Info Panel</b> you can also <b>see the adjusted watch time, remaining duration, and saved time</b> — making it much easier to manage your time while watching short-form or hidden-timer videos.
+<summary><h3>🔹 How to manage time on platforms like Instagram, Twitter/X, LinkedIn where duration isn’t shown?</h3></summary>
+Combine <a href="https://github.com/igrigorik/videospeed">Video Speed Controller</a> (to change speed) with <b>VideoSpeed Info Panel</b> (to see <b>watch time</b>, <b>remaining time</b>, and <b>time saved</b>). This solves the hidden/absent timer issue on Instagram, Twitter/X, LinkedIn, etc.
 </details>
 
 <details>
-<summary><h3>🔹 How to see the time of videos in platforms like Instagram or other social media?</h3></summary>
-Most social media platforms (Instagram, Twitter/X, LinkedIn, TikTok) do <b>not show total or remaining video time</b>.<br>
-By combining <a href="https://github.com/igrigorik/videospeed">Video Speed Controller</a> with <b>VideoSpeed Info Panel</b>, you can not only <b>change playback speed</b> but also <b>see the exact watch time, remaining duration, and saved time</b> in a clear panel — something the native players don’t provide.
+<summary><h3>🔹 How to see total/remaining time on social media videos (Instagram/TikTok) and track savings?</h3></summary>
+Install <b>VideoSpeed Info Panel</b> to display speed-adjusted <b>watch time</b>, <b>remaining duration</b>, and <b>saved time</b> on any HTML5 video. Pair with <a href="https://github.com/igrigorik/videospeed">Video Speed Controller</a> for precise speed control on Instagram, TikTok, and other social platforms.
 </details>
 
 <details>
