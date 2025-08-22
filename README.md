@@ -1,4 +1,4 @@
-# VideoSpeed Info Panel
+# <img src="logo-1.png" alt="VideoSpeed Info Panel Logo" width="25px"> **VideoSpeed Info Panel**
 
 Tampermonkey / Greasemonkey userscript that adds a dynamic **`!` info panel** to all HTML5 videos.  
 It shows **watch time** and **time saved** based on your current playback speed, and auto-hides when idle.
